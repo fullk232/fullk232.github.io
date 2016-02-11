@@ -1,0 +1,46 @@
+/* CSS! */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 999999px;
+  background-color: blue;
+  position: absolute;
+}
+
+img {
+
+}
+
+.shape {
+  position: absolute;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 200px;
+  color: blue;
+  position: absolute;
+  z-index: 99999;
+}
+
+h1 span {
+  display: inline-block;
+  position: absolute;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  margin: 600px 15px 30px 700px;
+
+}
