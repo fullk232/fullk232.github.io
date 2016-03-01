@@ -1,0 +1,147 @@
+body {
+font-family: 'Roboto Condensed', sans-serif;}
+.box_container{  
+position:relative; /* important */  
+width:1440px; /* we must set a specific width of the container, so it doesn't strech when the image starts moving */  
+height:820px; /* important if you use slidedown/slideup effects (check the demo). */  
+overflow:hidden; /* hide the content that goes beyond the div limits */  
+/*just styling bellow*/  
+margin: -90px auto 0 -10px;
+}  
+.box_image{  
+position:absolute; /* important - to get the image position on top of the text */  
+width: 1440px;
+height: 820px;
+}  
+
+.text {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 300px;
+	letter-spacing: 4px;
+	margin: 250px auto 0 250px;
+	position:relative;
+	z-index:-1;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+
+}
+a:visited {
+	color: white;
+}
+
+.background {
+	width: 1440px;
+	height: 820px;
+	position: absolute;
+	z-index: -3;
+	margin-top: -600px;
+}
+
+.navi {
+	margin: 0 auto 0 auto;
+     width: 485px;
+     height: 1380px;
+}
+.navi1 {
+	margin: 20px auto 0 auto;
+     width: 485px;
+     height: 1380px;
+}
+.b {
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+	display: inline-block;
+	border: 20px solid #60a579;
+}
+
+.hoverimg{
+	display: none;
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+
+}
+.b:hover .hoverimg{ 
+	display: inline-block; 
+	position: absolute;}
+
+.vertical-text {
+	width: 400px;
+	position: absolute;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	margin-top:-1380px;
+	margin-left: 10px;
+}
+
+p {
+	width: 400px;
+	position: absolute;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	margin-top:-1370px;
+	margin-left: 10px;
+}
+
+.hideme
+{
+    opacity:0;
+}
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-left:10px solid black; 
+	margin-top:-1310px;
+	margin-left: 40px;
+}
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid black; 
+	margin-top:-1310px;
+	margin-left: 20px;
+}
+
+.a {
+	margin-top: -1320px;
+}
+.arrow:hover {
+	background-color: #60a579;
+}
+.a:hover {
+	background-color: #60a579;
+}
+.smallnavi{
+	margin-top:-1308px;
+	margin-left:60px;
+}
+.smallcircle {
+	display: inline-block;
+	position: relative;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: black;
+}
+.smallcircle:hover {
+	background-color: #60a579;
+}
+
+.home {
+	background-color: #60a579; 
+}
+
+
