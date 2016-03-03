@@ -1,0 +1,21 @@
+.a-left {
+	top: 0px;
+	left: 0;
+	z-index: 5;
+}
+
+.a-right{
+	top: 0px;
+	right: 0px;
+	z-index: 7;
+}
+.a-top {
+	top: 0px;
+	left: 0px;
+	z-index: 6;
+}
+.a-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 7;
+}
