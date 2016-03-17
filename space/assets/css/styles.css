@@ -96,15 +96,29 @@ p {
 	border-right: 45px solid transparent;
 	border-top: 30px solid #000;
 	position: relative;
-	margin-left: 210px;
+	margin-left: 200px;
 }
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 30px solid #000;
+	position: relative;
+	margin-left: 200px;
+	margin-bottom: 3px;
+}
+
 
 .a {
 	margin-top: -1320px;
 	position: fixed;
 }
 .arrow-down:hover {
-	background-color: #60a579;
+	border-top: 30px solid #60a579;
+}
+.arrow-up:hover {
+	border-bottom: 30px solid #60a579;
 }
 .a:hover {
 	background-color: #60a579;
@@ -114,6 +128,8 @@ p {
 	margin-top:-1352px;
 	margin-left:7px;
 	position: fixed;
+	font-size: 10px;
+	text-align: center;
 }
 .smallcircle {
 	display: inline-block;
@@ -129,6 +145,11 @@ p {
 
 .active {
 	background-color: #60a579; 
+}
+
+.home {
+	font-size: 10px;
+	color: red;
 }
 
 
