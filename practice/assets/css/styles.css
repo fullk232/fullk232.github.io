@@ -1,0 +1,51 @@
+body {
+	margin-top: 0;
+	font-size: 0;
+}
+
+.alphabet {
+	display: none;
+}
+
+.letter {
+	width: 100px;
+	height: 200px;
+	position: relative;
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.horiz {
+	width: 100px;
+	height: 20px;
+	background-color: black;
+	position: absolute;
+}
+
+.top {
+	top: 0;
+	left: 0;
+}
+
+.mid {
+	top: 60px;
+	left: 0;
+}
+
+.vert {
+	width: 20px;
+	height: 200px;
+	position: absolute;
+	background-color: black;
+}
+
+.right {
+	left: 100px;
+}
+
+.o {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: solid black 1px;
+}

@@ -1,0 +1,158 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.word-wrapper {
+	display: inline-block;
+	margin-right: 60px;
+
+}
+.letter-wrapper { 
+	display: inline-block;
+	margin: 0 -70px 60px 15px; }
+
+.letter {
+	width: 150px;
+	height: 200px;
+	position: relative;
+}
+
+.bar {
+	position: absolute;
+}
+
+.vertical {
+	width: 30px;
+	height: 200px;
+}
+
+.horizontal {
+	width: 150px;
+	height: 30px;
+}
+
+.black { background: #000; }
+.red { background: #f00; }
+.yellow { background: #00f; }
+.blue { background: #ff0; }
+
+
+.a-right{
+	top: 0px;
+	right: 0px;
+	z-index: 7;
+}
+.a-top {
+	top: 0px;
+	left: 0px;
+	z-index: 6;
+}
+.a-mid {
+	top: 85px;
+	left: 0px;
+	z-index: 7;
+}
+
+.h-left, .b-left {
+	height: 200px;
+	width: 1px;
+	background: #000;
+}
+
+.h-top, .n-top {
+	border-radius: 30px 30px 0px 0px;
+    top: 120px;
+    border: 1px solid black;
+    border-width: 1px 1px 0px 1px;
+    width: 70px;
+    height: 80px; 
+}
+
+.o-round, .d-round, .p-round, .a-round, .b-round {
+	height: 80px;
+	width: 70px;
+	border: 1px solid black;
+	border-radius: 30px 30px 30px 30px;
+	top: 118px;
+}
+
+.d-right {
+	height: 200px;
+	width: 1px;
+	background: #000;
+	left: 71px;
+}
+
+.n-left {
+	height: 80px;
+	width: 1px;
+	background: #000;
+	top: 122px;
+}
+
+.p-left {
+	height: 200px;
+	width: 1px;
+	background: #000;
+	top: 120px;
+}
+
+.a-left {
+	height: 80px;
+	width: 1px;
+	background: #000;
+	top: 122px;
+	left: 71px;
+}
+
+.c-round {
+	border-radius: 30px 30px 30px 30px;
+    top: 120px;
+    border: 1px solid black;
+    border-width: 1px 0px 1px 1px;
+    width: 70px;
+    height: 80px; 
+}
+
+.e-round {
+	border-radius: 30px 30px 30px 30px;
+    top: 120px;
+    border: 1px solid black;
+    border-width: 1px 0px 1px 1px;
+    width: 70px;
+    height: 80px; 
+}
+
+
+.e-horizontal {
+	height: 1px;
+	width: 70px;
+	background: #000;
+	top: 145px;
+}
+
+.f-left {
+	top: 20px;
+	height: 180px;
+	width: 1px;
+	background: #000;
+}
+
+.f-round {
+	border-radius: 30px 30px 30px 30px;
+    border: 1px solid black;
+    border-width: 1px 0px 0px 0px;
+    width: 70px;
+    height: 80px; 
+}
+
+/* 
+position:
+absolute
+relative
+fixed
+
+
+*/
