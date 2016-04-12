@@ -3,15 +3,77 @@ body {
 	padding: 0;
 	font-size: 0;
 }
+.clock {
+	width: 300px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+}
+
+.phrase1 {
+	margin-left: 1300px;
+	 overflow-x: auto;
+      width: 1000px;
+       height: auto;
+}
+.opening-circle {
+	width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 100%;
+}
+
+.center {
+	height: 6px;
+	width: 6px;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+	border-radius: 100%;
+	background: #000;
+}
+.second-hand {
+	height: 120px;
+	width: 1px;
+	margin-left: 2px;
+	background: red;
+}
+.minute-hand {
+	height: 80px;
+	width: 1px;
+	margin-left: 2px;
+	background: #000;
+}
+.hour-hand {
+	height: 40px;
+	width: 2px;
+	margin-left: 2px;
+	background: #000;
+}
+
+.12 {
+	height: 30px;
+	width: 1px;
+	background: #000;
+}
 
 .word-wrapper {
 	display: inline-block;
-	margin-right: 200px;
+	margin-right: 100px;
 	margin-top: 20px;
+	margin-top: 0px;
+	margin-left: 5px;
 }
 .letter-wrapper { 
 	display: inline-block;
-	margin: 0 -70px 60px 15px; }
+	margin: 0px -40px 40px 15px; }
 
 .letter {
 	width: 150px;
@@ -22,11 +84,31 @@ body {
 .bar {
 	position: absolute;
 	   -webkit-animation-name: secondhand; 
-    -webkit-animation-duration: 120s; 
+    -webkit-animation-duration: 1s; 
     -webkit-animation-fill-mode: forwards; 
     -webkit-animation-timing-function: linear; 
     -webkit-animation-iteration-count: infinite; 
 }
+
+.bar2 {
+	position: absolute;
+	   -webkit-animation-name: minutehand; 
+    -webkit-animation-duration: 60s; 
+    -webkit-animation-fill-mode: forwards; 
+    -webkit-animation-timing-function: linear; 
+    -webkit-animation-iteration-count: infinite; 
+}
+
+.bar3 {
+	position: absolute;
+	   -webkit-animation-name: minutehand; 
+    -webkit-animation-duration: 3600s; 
+    -webkit-animation-fill-mode: forwards; 
+    -webkit-animation-timing-function: linear; 
+    -webkit-animation-iteration-count: infinite; 
+}
+
+
 
 .vertical {
 	width: 30px;
@@ -75,12 +157,20 @@ body {
     height: 80px; 
 }
 
-.o-round, .d-round, .p-round, .a-round, .b-round, .g-round, .q-round {
+.d-round, .p-round, .a-round, .b-round, .g-round, .q-round {
 	height: 80px;
 	width: 70px;
 	border: 1px solid black;
 	border-radius: 30px 30px 30px 30px;
 	top: 118px;
+}
+.o-round {
+	height: 80px;
+	width: 70px;
+	border: 1px solid black;
+	border-radius: 30px 30px 30px 30px;
+	top: 118px;
+	margin-left: -40px;
 }
 
 .d-right {
@@ -264,7 +354,7 @@ body {
 	height: 47px;
 	border-bottom: 1px solid #000;
 	-webkit-transform:
-	translateY(125px)
+	translateY(-75px)
 	translateX(11px)
 	rotate(140deg); 
 }
@@ -274,7 +364,7 @@ body {
 	height: 40px;
 	border-bottom: 1px solid #000;
 	-webkit-transform:
-	translateY(114px) 
+	translateY(-86px) 
 	translateX(-27px) 
 	rotate(234deg)
 }
@@ -371,12 +461,6 @@ body {
 	position: relative;
 }
 
-.anchor {
-	width: 70px;
-	height: 80px;
-	background: #fff;
-	position: relative;
-}
 .x-diagonal-left {
 	width: 95px;
 	height: 0px;
@@ -511,27 +595,18 @@ body {
 
 
 
-@-webkit-keyframes secondhad {
+@-webkit-keyframes secondhand {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
 }
 
-.dot {
-	left: 30px;
-	top: 112px;
-	height: 6px;
-	width: 6px;
-	border-radius: 100%;
-	background: #000;
+@-webkit-keyframes minutehand {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
-.round-q {
-	height: 80px;
-	width: 70px;
-	border: 1px solid black;
-	border-radius: 30px 30px 30px 30px;
-	top: -40px;
-	position: relative;
-}
+
+
+
 /* 
 position:
 absolute
