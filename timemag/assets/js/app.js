@@ -1,20 +1,19 @@
-showImg = function()
-{
-    x=document.getElementById("map_img")
-    x.style.visibility="visible";
-}
-showImg2 = function()
-{
-    x=document.getElementById("map_img2")
-    x.style.visibility="visible";
-}
-showImg3 = function()
-{
-    x=document.getElementById("map_img3")
-    x.style.visibility="visible";
-}
-showImg4 = function()
-{
-    x=document.getElementById("map_img4")
-    x.style.visibility="visible";
-}
+$(".first").click(function() {
+    console.log("test");
+    $("#map_img").toggle();
+})
+
+$(".second").click(function() {
+    console.log("test");
+    $("#map_img2").toggle();
+})
+
+$(".third").click(function() {
+    console.log("test");
+    $("#map_img3").toggle();
+})
+$(".fourth").click(function() {
+    console.log("test");
+    $("#map_img4").toggle();
+})
+

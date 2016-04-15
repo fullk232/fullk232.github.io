@@ -3,8 +3,24 @@ body {
 	padding: 0;
 	font-size: 15;
 	background-color: #ff3b2b;
+	font-family: Helvetica;
 }
 
+h1 {
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+}
+
+.archive {
+	margin-left: 50px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.archivepic {
+	height: 100px;
+}
 .word-wrapper {
 	display: inline-block;
 	margin-right: 200px;
@@ -20,10 +36,14 @@ body {
 	position: relative;
 }
 
+#map_img, #map_img2, #map_img3, #map_img4 {
+	display: none;
+}
+
 .bar {
 	position: absolute;
 	   -webkit-animation-name: secondhand; 
-    -webkit-animation-duration: 1000s; 
+    -webkit-animation-duration: 300s; 
     -webkit-animation-fill-mode: forwards; 
     -webkit-animation-timing-function: linear; 
     -webkit-animation-iteration-count: infinite; 
@@ -290,6 +310,10 @@ body {
     left: 71px;
 }
 
+.m {
+	margin-right: 50px;
+}
+
 .q-vertical {
 	height: 200px;
 	width: 1px;
@@ -551,6 +575,15 @@ body {
 	z-index: 5;
 	text-align: right;
 	margin-right: 15px;
+}
+
+a {
+	font-size: 12px;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
 }
 /* 
 position:
