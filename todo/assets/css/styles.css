@@ -1,0 +1,270 @@
+html, body {
+	height: 100%;
+}
+
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 36px;
+	font-family: Akkurat;
+	font-weight: 400;
+	position: absolute;
+	margin-top: 0;
+	margin-left: 6px;
+}
+
+.finishedpoem {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	vertical-align: top;
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.header {
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 20px;
+	border: 1px solid black;
+	width: 110px;
+	height: 45px;
+}
+
+.todo {
+	background-color: #fff;
+	width: 312px;
+	height: 280px;
+	top: 200px;
+    left: 0;
+    right: 0;
+	margin: auto;
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.unit {
+	width: 312px;
+	height: 170px;
+	background-color: #F8F8F8;
+	margin-bottom: 100px;
+}
+
+.input {
+	margin-left: 18px;
+	margin-top: -3px;
+}
+
+.h-plus {
+	background: #fff;
+	width: 20px;
+	height: 3px;
+	margin-left: 13px;
+	margin-top: 20px;
+	position: absolute;
+}
+
+
+.v-plus {
+	background: #fff;
+	width: 3px;
+	height: 20px;
+	margin-left: 21px;
+	position: absolute;
+	margin-top: 12px;
+}
+
+.importance {
+	margin-left: 18px;
+	margin-top: -50px;
+
+}
+
+.number {
+	font-size: 36px;
+	font-family: Akkurat;
+	font-weight: 400;
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.number:hover {
+	color: #0000ff;
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 36px;
+	font-family: Akkurat;
+	font-weight: 400;
+}
+
+input {
+	width: 270px;
+	height: 45px;
+	border: 1px black solid;
+	font-size: 30px;
+	font-family: Akkurat;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 12px;
+	font-family: Akkurat;
+	font-weight: 100;
+	margin-left: 18px;
+	padding-top: 14px;
+}
+
+h4 {
+	font-size: 12px;
+	font-family: Akkurat;
+	font-weight: 100;
+	margin-left: 18px;
+}
+
+.after {
+	height: 40px;
+	width: 500px;
+	margin-top: 90px;
+}
+
+.clicked {
+  color: blue;
+}
+
+.results {
+	font-size: 20px;
+}
+
+.finish {
+	font-size: 12px;
+	font-family: Akkurat;
+	font-weight: 100;
+	margin-top: -20px;
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+
+.finish:hover {
+	color: #000;
+}
+
+.poem {
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+
+.poem span {
+}
+
+.hide {
+	opacity: 0;
+	display: none;
+}
+
+.close {
+    top: 24px;
+    left: 24px;
+	width: 46px;
+	height: 46px;
+	background: blue;
+	border-radius: 100%;
+	cursor: pointer;
+	position: fixed;
+}
+.close:hover {
+	background-color: black;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 0px;
+}
+
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent; 
+	border-right:12px solid white; 
+	left: 15px;
+	top: 10px;
+	position: absolute; 
+}
+
+.one {
+	font-family: Akkurat;
+	font-size: 12px;
+	width: 500px;
+}
+
+
+.two {
+	font-family: Akkurat;
+	font-size: 17px;
+	width: 500px;
+}
+
+.three {
+	font-family: Akkurat;
+	font-size: 22px;
+	width: 500px;
+}
+
+.four {
+	font-family: Akkurat;
+	font-size: 27px;
+	width: 500px;
+}
+
+.five {
+	font-family: Akkurat;
+	font-size: 36px;
+	width: 500px;
+}
+
+.finishedpoem {
+	color: #000;
+}
+
+.active {
+	background-color: #fff;
+}
+
+.button {
+	width: 46px;
+	height: 46px;
+	background: blue;
+	border-radius: 100%;
+    top: -122px;
+    left: 200px;
+    right: 0;
+	margin: auto;
+	position: relative;
+}
+
+.button:hover {
+	background: #000;
+}
+
+.strike {
+	text-align: line-through;
+	color: blue;
+}
+
+@font-face {
+	font-family: Akkurat;
+	src: url(AkkuratRegular.otf);
+}
